@@ -10,7 +10,7 @@ public class Controller {
 	
 	@GetMapping("/hello")
 	public String sayHello() {
-		return "Hello World";
+		return "Hello World from ispgweb";
 	}
 
 }
