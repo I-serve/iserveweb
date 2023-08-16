@@ -14,7 +14,7 @@ public class Controller {
 		return "Hello World from ispgweb autom deploy now";
 	}
 	
-	@PostMapping
+	@PostMapping("/test")
 	public String test() {
 		return "test";
 	}
