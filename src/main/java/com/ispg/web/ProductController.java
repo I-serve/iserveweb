@@ -12,6 +12,6 @@ public class ProductController {
 	@GetMapping("/p1")
 	public String getproduct() {
 		
-		return "Product service";
+		return "Product service from p1 api";
 	}
 }
