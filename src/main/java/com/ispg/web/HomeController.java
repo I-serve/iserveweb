@@ -13,13 +13,14 @@ public class HomeController {
 	@GetMapping("/test")
 	public String test() {
 		
-		return "Test";
+		return "Testing";
 	}
 	
 	@PostMapping("/testpost")
 	public String testpost() {
 		return "response from testpost api";
 	}
+	
 	
 
 }
