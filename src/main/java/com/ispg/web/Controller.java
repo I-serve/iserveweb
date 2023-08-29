@@ -11,7 +11,7 @@ public class Controller {
 	
 	@GetMapping("/hello")
 	public String sayHello() {
-		return "Hello World from ispgweb autom deploy now";
+		return "Hello World from ispgweb autom deploy now. tested on 29/08/2023 at 11:58AM";
 	}
 	
 	@PostMapping("/test")
